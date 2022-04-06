@@ -1,0 +1,15 @@
+div{
+    
+
+    align-items:center;
+    margin-top: 200px;
+    margin-left: 350px;
+    color:rgb(3, 29, 87);
+    font-size: 50px;
+    
+}
+.example-card {
+    max-width: 170px;
+    max-height: 5px;
+  }
+  

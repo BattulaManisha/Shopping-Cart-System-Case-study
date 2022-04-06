@@ -1,0 +1,39 @@
+<mat-toolbar color="warn">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>supervised_user_circle</mat-icon>
+      
+    </button>
+   <span>My Online App</span>
+  
+<!--      <mat-form-field class="search">
+      <input type="text" matInput placeholder="Search">
+      </mat-form-field>
+      <mat-icon >search</mat-icon> -->
+    <span class="example-spacer"></span> 
+    <a mat-button routerLink="home"> Home</a>
+    <a mat-button routerLink="admin">Admin</a>
+    <a mat-button routerLink="productlist"> Products</a>
+    <a mat-button routerLink="contact"> ContactUs</a>
+    <a mat-button routerLink="cart"> Cart</a>
+    <a mat-button routerLink="feedback"> Feedback</a>
+    
+    
+
+    <!-- <button mat-raised-button routerLink="register"
+    routerLinkActive="active" color="primary">SignUp</button> -->
+    <button  mat-raised-button routerLink="login"
+    routerLinkActive="active" color="primary">Login</button>
+    &nbsp;
+
+    <a *ngIf="loggedIn" (click)="logoutUser()" mat-raised-button color="primary">
+
+      Logout</a>
+
+
+
+    
+
+  </mat-toolbar>
+  <router-outlet></router-outlet>
+
+  

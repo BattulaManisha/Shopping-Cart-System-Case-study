@@ -1,0 +1,12 @@
+.feedback{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('image/feedback2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100%;
+    
+    
+}
+button{
+    background-color: blueviolet;
+}
